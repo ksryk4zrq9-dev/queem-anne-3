@@ -390,7 +390,7 @@ function carregarProdutosParaVoce() {
     return;
   }
 
-  vistos.forEach(produto => {
+ vistos.slice(0, 7).forEach(produto => {
     const preco = Number(produto.preco || 0).toFixed(2);
     const link = produto.url || `produto.html?id=${produto.id}`;
 
