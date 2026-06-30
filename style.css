@@ -5548,3 +5548,65 @@ body::before{
     margin-left:auto;
   }
 }
+/* =====================================================
+   PRODUTOS PARA VOCÊ — GRID VISÍVEL
+===================================================== */
+
+.produtos-para-voce-grid{
+  display:grid !important;
+  grid-template-columns:repeat(auto-fill, minmax(220px, 1fr)) !important;
+  gap:18px !important;
+  width:100% !important;
+  margin-top:26px !important;
+}
+
+.produtos-para-voce-grid .produto-card{
+  display:flex !important;
+  flex-direction:column !important;
+  align-items:center !important;
+  justify-content:space-between !important;
+  min-height:380px !important;
+  background:#fff !important;
+  border:1px solid #eee !important;
+  border-radius:14px !important;
+  padding:22px !important;
+  text-align:center !important;
+  opacity:1 !important;
+  visibility:visible !important;
+}
+
+.produtos-para-voce-grid .produto-card img{
+  width:100% !important;
+  height:180px !important;
+  object-fit:contain !important;
+  display:block !important;
+  margin-bottom:18px !important;
+}
+
+.produtos-para-voce-grid .produto-card h3{
+  color:#111 !important;
+  font-size:15px !important;
+  font-weight:800 !important;
+  margin:0 0 14px !important;
+  min-height:42px !important;
+}
+
+.produtos-para-voce-grid .produto-card .preco{
+  color:#d80000 !important;
+  font-size:22px !important;
+  font-weight:900 !important;
+  margin:0 0 14px !important;
+}
+
+.produtos-para-voce-grid .produto-card .btn-ver{
+  display:inline-flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  height:38px !important;
+  padding:0 18px !important;
+  border-radius:7px !important;
+  background:#d80000 !important;
+  color:#fff !important;
+  text-decoration:none !important;
+  font-weight:800 !important;
+}
